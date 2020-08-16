@@ -25,7 +25,6 @@
 		D4E2E2C324E8EF9B0007B69E /* MinoritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2C224E8EF9B0007B69E /* MinoritiesViewController.swift */; };
 		D4E2E2C524E8F21C0007B69E /* WomenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2C424E8F21C0007B69E /* WomenViewController.swift */; };
 		D4E2E2C724E8F3F50007B69E /* STEMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2C624E8F3F50007B69E /* STEMViewController.swift */; };
-		D4E2E2CC24E8FD280007B69E /* Pexels Videos 1389615.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D4E2E2CB24E8FD280007B69E /* Pexels Videos 1389615.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		D4E2E2C224E8EF9B0007B69E /* MinoritiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinoritiesViewController.swift; sourceTree = "<group>"; };
 		D4E2E2C424E8F21C0007B69E /* WomenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenViewController.swift; sourceTree = "<group>"; };
 		D4E2E2C624E8F3F50007B69E /* STEMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMViewController.swift; sourceTree = "<group>"; };
-		D4E2E2CB24E8FD280007B69E /* Pexels Videos 1389615.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pexels Videos 1389615.mp4"; path = "Schola App/Pexels Videos 1389615.mp4"; sourceTree = SOURCE_ROOT; };
 		F551E847AD4DE311D867FB42 /* Pods-Schola App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schola App.debug.xcconfig"; path = "Target Support Files/Pods-Schola App/Pods-Schola App.debug.xcconfig"; sourceTree = "<group>"; };
 		FA76576E00DFBCD766EAEB6E /* Pods_Schola_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schola_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,7 +102,7 @@
 		D4863E9224E8A3250042840C /* Schola App */ = {
 			isa = PBXGroup;
 			children = (
-				D4E2E2CB24E8FD280007B69E /* Pexels Videos 1389615.mp4 */,
+				D4AFA4F824E901CB0095C316 /* Media */,
 				D4863E9324E8A3250042840C /* AppDelegate.swift */,
 				D4863E9524E8A3250042840C /* SceneDelegate.swift */,
 				D4863EAE24E8AB5D0042840C /* Helpers */,
@@ -141,6 +139,13 @@
 				D4E2E2B924E8BD450007B69E /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D4AFA4F824E901CB0095C316 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +212,6 @@
 				D4E2E2B824E8B08E0007B69E /* GoogleService-Info.plist in Resources */,
 				D4863E9D24E8A3260042840C /* Assets.xcassets in Resources */,
 				D4863E9B24E8A3250042840C /* Main.storyboard in Resources */,
-				D4E2E2CC24E8FD280007B69E /* Pexels Videos 1389615.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
