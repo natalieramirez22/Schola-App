@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D6935AF493D8FE9A6C1E9CB /* Pods_Schola_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA76576E00DFBCD766EAEB6E /* Pods_Schola_App.framework */; };
 		D4863E9424E8A3250042840C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863E9324E8A3250042840C /* AppDelegate.swift */; };
 		D4863E9624E8A3250042840C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863E9524E8A3250042840C /* SceneDelegate.swift */; };
 		D4863E9824E8A3250042840C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863E9724E8A3250042840C /* ViewController.swift */; };
 		D4863E9B24E8A3250042840C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4863E9924E8A3250042840C /* Main.storyboard */; };
 		D4863E9D24E8A3260042840C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4863E9C24E8A3260042840C /* Assets.xcassets */; };
 		D4863EA024E8A3260042840C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4863E9E24E8A3260042840C /* LaunchScreen.storyboard */; };
+		D4863EA924E8A3680042840C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863EA824E8A3680042840C /* SignUpViewController.swift */; };
+		D4863EAB24E8A3720042840C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863EAA24E8A3720042840C /* LoginViewController.swift */; };
+		D4863EAD24E8A37B0042840C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863EAC24E8A37B0042840C /* HomeViewController.swift */; };
+		D4863EB024E8AB780042840C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863EAF24E8AB780042840C /* Utilities.swift */; };
+		D4E2E2B824E8B08E0007B69E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4E2E2B724E8B08E0007B69E /* GoogleService-Info.plist */; };
+		D4E2E2BA24E8BD450007B69E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2B924E8BD450007B69E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		746B543A64D6BD8C1F2DD366 /* Pods-Schola App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schola App.release.xcconfig"; path = "Target Support Files/Pods-Schola App/Pods-Schola App.release.xcconfig"; sourceTree = "<group>"; };
 		D4863E9024E8A3250042840C /* Schola App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schola App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4863E9324E8A3250042840C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4863E9524E8A3250042840C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		D4863E9C24E8A3260042840C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4863E9F24E8A3260042840C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4863EA124E8A3260042840C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4863EA824E8A3680042840C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D4863EAA24E8A3720042840C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D4863EAC24E8A37B0042840C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D4863EAF24E8AB780042840C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D4E2E2B724E8B08E0007B69E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4E2E2B924E8BD450007B69E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F551E847AD4DE311D867FB42 /* Pods-Schola App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schola App.debug.xcconfig"; path = "Target Support Files/Pods-Schola App/Pods-Schola App.debug.xcconfig"; sourceTree = "<group>"; };
+		FA76576E00DFBCD766EAEB6E /* Pods_Schola_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schola_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6935AF493D8FE9A6C1E9CB /* Pods_Schola_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		207F67D3078C0AB5E343D305 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F551E847AD4DE311D867FB42 /* Pods-Schola App.debug.xcconfig */,
+				746B543A64D6BD8C1F2DD366 /* Pods-Schola App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7EA4E2C38CA8EBC211F74200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA76576E00DFBCD766EAEB6E /* Pods_Schola_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4863E8724E8A3250042840C = {
 			isa = PBXGroup;
 			children = (
 				D4863E9224E8A3250042840C /* Schola App */,
 				D4863E9124E8A3250042840C /* Products */,
+				207F67D3078C0AB5E343D305 /* Pods */,
+				7EA4E2C38CA8EBC211F74200 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +94,43 @@
 			children = (
 				D4863E9324E8A3250042840C /* AppDelegate.swift */,
 				D4863E9524E8A3250042840C /* SceneDelegate.swift */,
-				D4863E9724E8A3250042840C /* ViewController.swift */,
+				D4863EAE24E8AB5D0042840C /* Helpers */,
+				D4863EA724E8A3370042840C /* View Controllers */,
+				D4E2E2BB24E8C2050007B69E /* Media */,
 				D4863E9924E8A3250042840C /* Main.storyboard */,
 				D4863E9C24E8A3260042840C /* Assets.xcassets */,
 				D4863E9E24E8A3260042840C /* LaunchScreen.storyboard */,
+				D4E2E2B724E8B08E0007B69E /* GoogleService-Info.plist */,
 				D4863EA124E8A3260042840C /* Info.plist */,
 			);
 			path = "Schola App";
+			sourceTree = "<group>";
+		};
+		D4863EA724E8A3370042840C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4863E9724E8A3250042840C /* ViewController.swift */,
+				D4863EA824E8A3680042840C /* SignUpViewController.swift */,
+				D4863EAA24E8A3720042840C /* LoginViewController.swift */,
+				D4863EAC24E8A37B0042840C /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D4863EAE24E8AB5D0042840C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D4863EAF24E8AB780042840C /* Utilities.swift */,
+				D4E2E2B924E8BD450007B69E /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D4E2E2BB24E8C2050007B69E /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4863EA424E8A3260042840C /* Build configuration list for PBXNativeTarget "Schola App" */;
 			buildPhases = (
+				C35CAEE54CFCF64CA7304A3D /* [CP] Check Pods Manifest.lock */,
 				D4863E8C24E8A3250042840C /* Sources */,
 				D4863E8D24E8A3250042840C /* Frameworks */,
 				D4863E8E24E8A3250042840C /* Resources */,
+				67EE77B455F0308B08A82F89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +194,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4863EA024E8A3260042840C /* LaunchScreen.storyboard in Resources */,
+				D4E2E2B824E8B08E0007B69E /* GoogleService-Info.plist in Resources */,
 				D4863E9D24E8A3260042840C /* Assets.xcassets in Resources */,
 				D4863E9B24E8A3250042840C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67EE77B455F0308B08A82F89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Schola App/Pods-Schola App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Schola App/Pods-Schola App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Schola App/Pods-Schola App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35CAEE54CFCF64CA7304A3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Schola App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4863E8C24E8A3250042840C /* Sources */ = {
@@ -140,7 +251,12 @@
 			files = (
 				D4863E9824E8A3250042840C /* ViewController.swift in Sources */,
 				D4863E9424E8A3250042840C /* AppDelegate.swift in Sources */,
+				D4863EB024E8AB780042840C /* Utilities.swift in Sources */,
+				D4863EA924E8A3680042840C /* SignUpViewController.swift in Sources */,
+				D4863EAB24E8A3720042840C /* LoginViewController.swift in Sources */,
 				D4863E9624E8A3250042840C /* SceneDelegate.swift in Sources */,
+				D4863EAD24E8A37B0042840C /* HomeViewController.swift in Sources */,
+				D4E2E2BA24E8BD450007B69E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +398,7 @@
 		};
 		D4863EA524E8A3260042840C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F551E847AD4DE311D867FB42 /* Pods-Schola App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +417,7 @@
 		};
 		D4863EA624E8A3260042840C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746B543A64D6BD8C1F2DD366 /* Pods-Schola App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
