@@ -18,6 +18,7 @@
 		D4863EAB24E8A3720042840C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863EAA24E8A3720042840C /* LoginViewController.swift */; };
 		D4863EAD24E8A37B0042840C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863EAC24E8A37B0042840C /* HomeViewController.swift */; };
 		D4863EB024E8AB780042840C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4863EAF24E8AB780042840C /* Utilities.swift */; };
+		D4AFA4FA24E902A80095C316 /* schola.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D4AFA4F924E902A70095C316 /* schola.mp4 */; };
 		D4E2E2B824E8B08E0007B69E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4E2E2B724E8B08E0007B69E /* GoogleService-Info.plist */; };
 		D4E2E2BA24E8BD450007B69E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2B924E8BD450007B69E /* Constants.swift */; };
 		D4E2E2BF24E8E3C30007B69E /* EssayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2BE24E8E3C30007B69E /* EssayViewController.swift */; };
@@ -41,6 +42,7 @@
 		D4863EAA24E8A3720042840C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D4863EAC24E8A37B0042840C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D4863EAF24E8AB780042840C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D4AFA4F924E902A70095C316 /* schola.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = schola.mp4; path = "Schola App/schola.mp4"; sourceTree = SOURCE_ROOT; };
 		D4E2E2B724E8B08E0007B69E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D4E2E2B924E8BD450007B69E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D4E2E2BE24E8E3C30007B69E /* EssayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssayViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		D4AFA4F824E901CB0095C316 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				D4AFA4F924E902A70095C316 /* schola.mp4 */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4AFA4FA24E902A80095C316 /* schola.mp4 in Resources */,
 				D4863EA024E8A3260042840C /* LaunchScreen.storyboard in Resources */,
 				D4E2E2B824E8B08E0007B69E /* GoogleService-Info.plist in Resources */,
 				D4863E9D24E8A3260042840C /* Assets.xcassets in Resources */,
