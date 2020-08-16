@@ -291,12 +291,106 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4X7-t3-24S">
-                                <rect key="frame" x="96" y="282" width="173" height="30"/>
+                                <rect key="frame" x="106" y="241" width="203" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Rhodes Scholarship"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Rhodes Scholarship">
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="CBU-O0-WIM"/>
                                     <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="TzF-Ne-lrF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAY-mX-laf">
+                                <rect key="frame" x="100" y="292" width="215" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Anne Ford Scholarship">
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="AFSBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="ymm-zK-BwR"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="9R8-eK-reg"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="RcY-Fw-AVI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3N-s8-Ul1">
+                                <rect key="frame" x="50" y="353" width="314" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Allegra Ford Thomas Scholarship">
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="AFTSBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="zdx-dL-Xvi"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="Sw5-Ch-m6y"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="d28-Cq-bEg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3JK-6b-O6j">
+                                <rect key="frame" x="67" y="413" width="281" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="AEL Collegiate Essay Contest">
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="AELCSBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="kUZ-VJ-46X"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="Eeo-ur-ekM"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="MDn-kg-3kN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0w-Pq-Fot">
+                                <rect key="frame" x="62" y="474" width="291" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Mainely Character Scholarship">
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="MCSBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="0qh-az-eMt"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="XXg-vY-j39"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="e7h-d6-nU2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctz-8i-vSX">
+                                <rect key="frame" x="25" y="537" width="364" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="VFW Voice of Democracy Competition">
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="N7N-RW-PSn"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="ZFH-Vb-lFQ"/>
+                                    <action selector="VFWVDBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="tHd-BX-2NM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YsN-A3-M6P">
+                                <rect key="frame" x="30" y="602" width="355" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="JFK Profile in Courage Essay Contest">
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="JFKPCECBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="f1z-r6-iZF"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="OIR-ub-5BE"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="Z6u-6x-Nfh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHy-h4-EFL">
+                                <rect key="frame" x="30" y="663" width="355" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Life Lessons Scholarship Program">
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="LLSPBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="3lP-IR-vho"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="3HM-aC-XkP"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="oVH-6V-pgq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -619,7 +713,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="mCv-Su-UJt"/>
         <segue reference="3Ig-n9-RNO"/>
         <segue reference="6cy-Sy-gSh"/>
     </inferredMetricsTieBreakers>
