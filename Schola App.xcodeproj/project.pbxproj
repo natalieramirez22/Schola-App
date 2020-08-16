@@ -23,6 +23,7 @@
 		D4E2E2BF24E8E3C30007B69E /* EssayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2BE24E8E3C30007B69E /* EssayViewController.swift */; };
 		D4E2E2C124E8EC210007B69E /* NoEssayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2C024E8EC210007B69E /* NoEssayViewController.swift */; };
 		D4E2E2C324E8EF9B0007B69E /* MinoritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2C224E8EF9B0007B69E /* MinoritiesViewController.swift */; };
+		D4E2E2C524E8F21C0007B69E /* WomenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2E2C424E8F21C0007B69E /* WomenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		D4E2E2BE24E8E3C30007B69E /* EssayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssayViewController.swift; sourceTree = "<group>"; };
 		D4E2E2C024E8EC210007B69E /* NoEssayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoEssayViewController.swift; sourceTree = "<group>"; };
 		D4E2E2C224E8EF9B0007B69E /* MinoritiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinoritiesViewController.swift; sourceTree = "<group>"; };
+		D4E2E2C424E8F21C0007B69E /* WomenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenViewController.swift; sourceTree = "<group>"; };
 		F551E847AD4DE311D867FB42 /* Pods-Schola App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schola App.debug.xcconfig"; path = "Target Support Files/Pods-Schola App/Pods-Schola App.debug.xcconfig"; sourceTree = "<group>"; };
 		FA76576E00DFBCD766EAEB6E /* Pods_Schola_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schola_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 				D4E2E2BE24E8E3C30007B69E /* EssayViewController.swift */,
 				D4E2E2C024E8EC210007B69E /* NoEssayViewController.swift */,
 				D4E2E2C224E8EF9B0007B69E /* MinoritiesViewController.swift */,
+				D4E2E2C424E8F21C0007B69E /* WomenViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				D4E2E2C124E8EC210007B69E /* NoEssayViewController.swift in Sources */,
 				D4863EAB24E8A3720042840C /* LoginViewController.swift in Sources */,
 				D4863E9624E8A3250042840C /* SceneDelegate.swift in Sources */,
+				D4E2E2C524E8F21C0007B69E /* WomenViewController.swift in Sources */,
 				D4863EAD24E8A37B0042840C /* HomeViewController.swift in Sources */,
 				D4E2E2BA24E8BD450007B69E /* Constants.swift in Sources */,
 			);
