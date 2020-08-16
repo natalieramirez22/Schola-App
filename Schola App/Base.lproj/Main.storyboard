@@ -407,7 +407,7 @@
         <!--NoEssayViewController-->
         <scene sceneID="fgP-gs-b4o">
             <objects>
-                <viewController id="nEr-bX-gqG" userLabel="NoEssayViewController" sceneMemberID="viewController">
+                <viewController id="nEr-bX-gqG" userLabel="NoEssayViewController" customClass="NoEssayViewController" customModule="Schola_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4ly-vA-pbX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -432,7 +432,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqi-uh-WkA">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqi-uh-WkA" userLabel="BackButton">
                                 <rect key="frame" x="53" y="756.5" width="65" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
@@ -444,6 +444,126 @@
                                     <segue destination="d16-6a-7bW" kind="show" id="3Ig-n9-RNO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyZ-B7-cU1">
+                                <rect key="frame" x="106" y="238" width="203" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">Pledge to Vote
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PTVSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="lnF-de-6Wa"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="Ln1-CR-do9"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="Q3x-79-UMV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5B-V5-569">
+                                <rect key="frame" x="77" y="295" width="261" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">$1,000 August Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ASBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="dUl-t3-hC5"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="ePI-xT-lNE"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="je7-rq-ZXz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vs9-9S-1e5">
+                                <rect key="frame" x="63" y="354" width="289" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">ScholarshipPoints Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="QBl-Q4-C6l"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="YwH-OZ-Duh"/>
+                                    <action selector="SPSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="NSq-16-Amm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmv-6Y-ArM">
+                                <rect key="frame" x="55" y="416" width="305" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">$2,000 “No Essay” Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="NESBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="mRm-1K-mGa"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="7G8-Fu-XT9"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="Ek5-mI-O6a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3l-qb-OSh">
+                                <rect key="frame" x="77" y="468" width="261" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">College Survey Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="CSCBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="DS9-gc-6M3"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="8BZ-gy-VEW"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="Pif-ee-h3y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGS-Kv-wcO">
+                                <rect key="frame" x="43" y="530" width="329" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">Local Survey $1,000 Sweepstakes
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="LS1SBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="Z27-yc-EPw"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="Db1-uh-Xfe"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="NPK-aW-0dO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPf-YC-GdP">
+                                <rect key="frame" x="18" y="603" width="378" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">ScholarshipPoints $10,000 Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="2pE-cy-xof"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="Oq3-DN-e5A"/>
+                                    <action selector="SP10SBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="SUG-CH-NkA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3K-yh-pGN">
+                                <rect key="frame" x="53" y="667" width="309" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">Coca-Cola Scholars Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="CCSSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="WYL-6W-BXl"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="F3U-Hw-Eoz"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="Gea-eq-dtd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="SZy-0p-VKI"/>
@@ -452,7 +572,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYO-xA-ypt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3849" y="-191"/>
+            <point key="canvasLocation" x="3847.826086956522" y="-191.51785714285714"/>
         </scene>
         <!--StemViewController-->
         <scene sceneID="uCa-vj-v5a">
