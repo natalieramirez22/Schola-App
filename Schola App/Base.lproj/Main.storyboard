@@ -677,7 +677,7 @@
         <!--MinoritiesViewController-->
         <scene sceneID="rpL-3s-DiU">
             <objects>
-                <viewController id="wbo-bd-xZR" userLabel="MinoritiesViewController" sceneMemberID="viewController">
+                <viewController id="wbo-bd-xZR" userLabel="MinoritiesViewController" customClass="MinoritiesViewController" customModule="Schola_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mmc-Da-W0e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -702,7 +702,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QL-vF-MYt">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QL-vF-MYt" userLabel="BackButton">
                                 <rect key="frame" x="63" y="756.5" width="65" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
@@ -714,6 +714,133 @@
                                     <segue destination="d16-6a-7bW" kind="show" id="XoW-wt-6vz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkX-Oa-gQ2">
+                                <rect key="frame" x="99" y="245" width="216" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="The Gates Scholarship">
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="GSBtn:" destination="wbo-bd-xZR" eventType="touchUpInside" id="bko-C3-OHY"/>
+                                    <action selector="PTVSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="VxH-NA-tD7"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="2Lp-fD-SHO"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="IAQ-w8-W27"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWH-pK-NeJ">
+                                <rect key="frame" x="49" y="292" width="316" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">Hurston/Wright Award for Writers
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="HWACWBtn:" destination="wbo-bd-xZR" eventType="touchUpInside" id="NTQ-C7-rhg"/>
+                                    <action selector="PTVSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="Ncg-8H-8OR"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="5qY-iR-8yO"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="PRR-0H-01k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFt-8H-1M9">
+                                <rect key="frame" x="49" y="345" width="316" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">Valerie Russel Scholarship for African American Lay Women
+omen Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PTVSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="r2l-Wo-9i0"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="4k3-rl-TSO"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="yMd-AM-k1o"/>
+                                    <action selector="VRSFAALWSBtn:" destination="wbo-bd-xZR" eventType="touchUpInside" id="vVd-tH-dqK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpj-wb-1N3">
+                                <rect key="frame" x="64" y="424" width="286" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">Boyd Family Scholarship Fund
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BFSBtn:" destination="wbo-bd-xZR" eventType="touchUpInside" id="qGf-zi-qvc"/>
+                                    <action selector="PTVSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="YeI-GY-OFI"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="5ue-B4-WzZ"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="9gQ-aT-Xqg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUf-mf-1uF">
+                                <rect key="frame" x="36" y="482" width="342" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">#LifeLikeLyLy Memorial Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="LLLLMSBtn:" destination="wbo-bd-xZR" eventType="touchUpInside" id="ME8-SN-3Gx"/>
+                                    <action selector="PTVSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="gZQ-oF-cUv"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="Das-Hh-j1y"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="vt9-GQ-gf8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mt3-oK-JjJ">
+                                <rect key="frame" x="37" y="542" width="324" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">Latinos in Technology Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="LITSBtn:" destination="wbo-bd-xZR" eventType="touchUpInside" id="A9J-1n-hWc"/>
+                                    <action selector="PTVSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="y18-qx-tDR"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="sge-6q-qvN"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="zpR-mn-ovc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdZ-Ot-ClC">
+                                <rect key="frame" x="42" y="685" width="318" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">DAR American Indian Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="DARAISBtn:" destination="wbo-bd-xZR" eventType="touchUpInside" id="yKd-UJ-2hy"/>
+                                    <action selector="PTVSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="UqA-Nt-6lQ"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="HKw-TT-BnE"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="yAf-Uz-9Dk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nr-FG-HSM">
+                                <rect key="frame" x="37" y="615" width="341" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <string key="title">Verl and Dorothy Miller Native American Vocational Scholarship
+</string>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.33725490200000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PTVSBtn:" destination="nEr-bX-gqG" eventType="touchUpInside" id="4j3-Xj-51f"/>
+                                    <action selector="RhodesBtn:" destination="ySM-xe-zZI" eventType="touchUpInside" id="Kzg-EK-IQ1"/>
+                                    <action selector="RhodesBtn:" destination="Ozw-ON-79f" eventType="touchUpInside" id="b3Y-6A-1D4"/>
+                                    <action selector="VDMNASBtn:" destination="wbo-bd-xZR" eventType="touchUpInside" id="sN2-XG-OPc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="bHl-CW-JoG"/>
@@ -722,7 +849,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GYx-Hu-rQ2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4568" y="230"/>
+            <point key="canvasLocation" x="4566.666666666667" y="229.6875"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="JhP-Zc-DdZ">
@@ -833,7 +960,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3Ig-n9-RNO"/>
+        <segue reference="XoW-wt-6vz"/>
         <segue reference="6cy-Sy-gSh"/>
     </inferredMetricsTieBreakers>
     <resources>
