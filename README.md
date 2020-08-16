@@ -6,7 +6,8 @@ Natalie Ramirez, Sarah Fleming, and Riley Lebon
 
 ## Why
 An app for everyone to get easy access to scholarships
-Types of scholarships (for now)
+
+## Types of scholarships (for now)
 - Essay
 - No Essay
 - Minorities
