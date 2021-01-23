@@ -2,7 +2,7 @@
 TecHacks hackathon project - scholarship resources app
 
 ## Who
-Natalie Ramirez, Sarah Fleming, and Riley Lebon
+Natalie Ramirez and Sarah Fleming
 
 ## Why
 An app for everyone to get easy access to scholarships
