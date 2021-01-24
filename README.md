@@ -1,5 +1,6 @@
 # Schola-App
-TecHacks hackathon project - scholarship resources app
+TecHacks hackathon project - scholarship resources app with sleek and simple
+sign-up and log-in features.
 
 ## Who
 Natalie Ramirez and Sarah Fleming
